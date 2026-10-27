@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Login- Brinds Boutique</title>
+</head>
+
+<body>
+    <center>
+        <h1>Brinds Boutique</h1>
+        <h4>Your style, Your passion!</h4>
+    </center>
+    <hr>
+    <nav>
+        <center>
+            <h2>
+                <a href="./index.html">Home</a> |
+                <a href="./about.html">About</a> |
+                <a href="./collections.html">Collections</a> |
+                <a href="./contact.html">Contact</a> |
+                <a href="./login.html">Login</a>
+            </h2>
+        </center>
+        <center>
+            <hr>
+            <h1>Welcome Back!</h1>
+            <p>Enter your details to explore Brinds Boutique.</p>
+            <form action="./brinds.py" method="POST">
+                <lable><b>Full Name:</b></lable><input type="text" name="fullname"
+                    placeholder="Enter your full name"><br><br>
+                <lable><b>Email Address:</b></lable><input type="email" name="email"
+                    placeholder="Enter your email"><br><br>
+                <label><b>Password:</b></label>
+                <input type="password" name="password" placeholder="Create a password"><br><br>
+                <lable><b>Phone Number:</b></lable><input type="tel" name="phone"
+                    placeholder="Enter your phone number"><br><br>
+                <lable><b>Date Of Birth:</b></lable><input type="date" name="dob"><br><br>
+
+                <lable><b>Gender:</b></lable>
+                <input type="radio" name="gender" value="Male">
+                <lable>Male</lable>
+                <input type="radio" name="gender" value="Female">
+                <lable>Female</lable>
+                <input type="radio" name="gender" value="Other">
+                <lable>Other</lable>
+                <br><br>
+                <lable><b>Address:</b></lable><br>
+                <textarea name="address" rows="3" cols="25" placeholder="Enter your address"></textarea><br>
+                <button type="submit">Login</button>
+        </center>
+        </form>
+        <center>
+            <hr>
+
+            <h3>Style Brgins with you!</h3>
+            <button> <a href="./index.html"> Back to Home</a>
+            </button>
+            <p>© 2026 Brinds Boutique</p>
+        </center>
+</body>
+
+</html>
